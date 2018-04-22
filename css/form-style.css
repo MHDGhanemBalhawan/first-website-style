@@ -1,0 +1,130 @@
+.header h1 {
+  color: #cc0000;
+  text-align: center;
+}
+
+.header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header nav li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+
+.header nav a {
+  display: block;
+  padding: 10px;
+  background-color: #ffcc66;
+  text-decoration: none;
+  border: 1px solid #868484;
+  border-radius: 1.1rem;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table;
+}
+
+.clear-fix:after {
+  clear: both;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: #224C8B;
+}
+
+.btn--extra-large {
+  width: 9%;
+}
+
+.btn--extra-large {
+  color: #224C8B;
+  background-color: #ffcc66;
+  width: 99.5%;
+  padding: 15px 5px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 1px solid #868484;
+  border-radius: 1.1rem;
+  background-color: lighten #ffcc66, 0%;
+}
+
+.btn--extra-large:hover {
+  cursor: default;
+}
+
+.main-div {
+  font-family: Helvetica, sans-serif;
+  color: #224C8B;
+  background-color: #ffffff;
+  margin: 15px auto;
+  width: 80%;
+  height: 90vh;
+  padding: 15px auto;
+  font-size: 1rem;
+}
+
+.main-div h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main-div form {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.main-div form label {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main-div form input {
+  margin: 0 auto;
+  width: 98%;
+}
+
+.main-div form textarea {
+  margin: 0;
+  width: 99%;
+  height: 200px;
+  border-radius: 0.3rem;
+  border: 1px solid #868484;
+}
+
+.main-div form ::-webkit-input-placeholder {
+  color: #353232;
+  font-size: 14px;
+}
+
+.main-div form ::-moz-placeholder {
+  color: #353232;
+  font-size: 14px;
+}
+
+.main-div form :-ms-input-placeholder {
+  color: #353232;
+  font-size: 14px;
+}
+
+.main-div form ::placeholder {
+  color: #353232;
+  font-size: 14px;
+}

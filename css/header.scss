@@ -1,0 +1,52 @@
+$bright-orange: #ffcc66;
+$orange: #d58512;
+$red: #cc0000;
+$white: #ffffff;
+$thickness: 4px;
+$background-color: #333;
+$blue: #224C8B;
+$lightgray: rgb(170, 160, 160);
+$gray: rgb(134, 132, 132);
+$darkgray: rgb(53, 50, 50);
+$width-large: 270px;
+$width-extra-large: 9%;
+$padding-large:25px;
+$placeholder-font-size: 14px;
+.header {
+    margin: 0 auto;
+        h1 {
+            color: $bright-orange;
+            text-align: center;
+        }
+        nav {
+            ul {
+                padding: 0;
+                margin: 0;
+            }
+            li {
+                list-style: none;
+                float: left;
+                margin-right: 10px;
+            }
+            a {
+                display: block;
+                padding: 10px;
+                background-color: $bright-orange;
+                text-decoration: none;
+                border: 1px solid $gray;
+                border-radius: 1.1rem;
+                
+            }
+        }
+}
+.clear-fix:before,
+.clear-fix:after {
+    content: "";
+    display: table;
+}
+.clear-fix:after {
+    clear: both;
+}
+.clear-fix {
+    zoom: 1;
+}
